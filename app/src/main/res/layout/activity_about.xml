@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="UNIVERSIDAD LAYCA ELOY ALFARO DE MANABI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="#2fda1f"
+        android:textSize="20dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/facci"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+     <TextView
+         android:text="Creado por:
+          Irving Zambrano
+          Maria Jose Guerrero"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/textView5"
+         android:textColor="#2fda1f"
+         android:textSize="20dp"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentEnd="true"
+         android:layout_above="@+id/textView6" />
+    <TextView
+        android:text="Curso:
+                      4Nivel B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textColor="#2fda1f"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="106dp"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MAPAS</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="about">Acerca de</string>
+    <string name="confi">Configuracion</string>
+    <string name="corde">Coordenadas</string>
+    <string name="mostrar">Base de Datos</string>
+    <string name="eliminar">Borrar Base de Datos</string>
+
+</resources>
